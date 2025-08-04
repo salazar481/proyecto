@@ -1,0 +1,3 @@
+#Dependencias que no se deben subir al reprositorio
+node_modules/
+package-lock.json
