@@ -76,4 +76,9 @@ function cargarEquiposParaEditar(equipo) {
 // Eliminar equipo
 async function eliminarEquipoHandler(id){
     if (confirm('¿Estás seguro de eliminar este equipo?'))
+        await eliminarEquipo(id);
+        await mostrarEquipos();
+
 }
+
+mostrarEquipos();
