@@ -3,5 +3,17 @@ USE futbol_equipos;
 
 CREATE TABLE equipos(
     id_equipo INT AUTO_INCREMENT PRIMARY KEY,
-    nombre VARCHAR(100) NOT NULL
+    nombre_equipo VARCHAR(100) NOT NULL
 );
+
+--INSERT = POST
+insert into equipos (nombre_equipo)
+values
+("Alemania"),
+("Holanda"),
+("Suecia"),
+("Francia"),
+("Noruega")
+
+--select = GET
+select * from equipos;
