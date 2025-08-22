@@ -1,19 +1,19 @@
-CREATE DATABASE IF NOT EXISTS futbol_equipos
+CREATE DATABASE futbol_equipos;
 USE futbol_equipos;
 
 CREATE TABLE equipos(
     id_equipo INT AUTO_INCREMENT PRIMARY KEY,
-    nombre_equipo VARCHAR(100) NOT NULL
+    nombre_equipo VARCHAR(100)
 );
 
---INSERT = POST
-insert into equipos (nombre_equipo)
+-- Insert = POST --
+Insert Into equipos (nombre_equipo) 
 values
 ("Alemania"),
 ("Holanda"),
 ("Suecia"),
 ("Francia"),
-("Noruega")
+("Noruega");
 
---select = GET
-select * from equipos;
+-- Select = GET
+Select * From equipos;
