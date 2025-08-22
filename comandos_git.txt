@@ -1,0 +1,9 @@
+git status (para ver el estado actual del proyecto)
+git add . (para agregar todos los cambios realizados)
+git commit -m "comentario" (para comentar la versión que se esta subiendo)
+git push (sube los cambios al repositorio de la nube)
+
+En caso de haber problemas con las credenciales para subir los archivos, debe de borrar las credenciales y luego iniciar sesión si pide configurar el usuario y el email hacer lo siguiente:
+
+git config user.name "nombre de usuario de GitHub"
+git config user.email "email de usuario de GitHub"
